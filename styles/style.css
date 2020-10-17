@@ -1,0 +1,113 @@
+body{
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+    background-image: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, top, right;
+    background-size: contain, contain;
+}
+#section-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5rem;
+
+}
+
+.intro p{
+    color: hsl(303, 10%, 53%);
+    font-weight: 500;
+    font-size: 0.75rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 16px;
+   
+}
+
+.intro-head {
+    color: hsl(300, 43%, 22%);
+    font-weight: 800;
+    padding: 1rem;
+    margin-bottom: 0%;
+    font-size: 3rem;
+
+}
+.rating{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.rating p {
+    background-color: hsl(303, 10%, 91%);
+    color: hsl(300, 43%, 22%);
+    font-weight: 400;
+    padding: 1.2rem;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.report-guru{
+    margin-left: 1rem;
+    padding-right: 30px;
+}
+.bestTech{
+    margin-left: 2rem;
+    padding-right: 20px;
+}
+.container-fluid{
+    padding:20px 3rem 20px 3rem;
+    color:#fff;
+   
+}
+.row{
+    justify-content: center;
+}
+.personna{
+    background-color: hsl(300, 43%, 22%);
+    margin-left: 3rem;
+    margin-top: 16px;
+    border-radius: 10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    padding-bottom: 15px;
+    border-top-width: 15px;
+    font-weight: 500;
+    font-size: 0.75rem;
+    padding-top: 15px;
+}
+.persona-img{
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    display:inline-block;
+}
+.detail  {
+    display:inline-block;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.position{
+    color: hsl(333, 80%, 67%);
+}
+.comment{
+    margin-top: 1rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
